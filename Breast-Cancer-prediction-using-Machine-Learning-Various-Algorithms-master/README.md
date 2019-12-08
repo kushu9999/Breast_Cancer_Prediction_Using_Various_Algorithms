@@ -61,7 +61,7 @@ In this repository i will trained lots of Machine  learning algorithm from scrat
         <td>Logistic regression</td>
         <td>88.42</td>
     
-    </tr>
+   </tr>
 </table>
 </body>
 </html>
