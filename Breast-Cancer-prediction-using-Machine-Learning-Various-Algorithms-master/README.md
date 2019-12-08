@@ -20,39 +20,6 @@ In this repository i will trained lots of Machine  learning algorithm from scrat
 
 <img src="text.png">
 
-
-## How to use
-
-1. Clone the repo
-```
-git clone https://github.com/suvhradipghosh07/Breast-Cancer-prediction-using-Machine-Learning-various-Algorithm.git
-```
-
-2. cd to the repo
-```
-cd Breast-Cancer-prediction-using-Machine-Learning-various-Algorithm
-```
-
-3. Start Main file
-```
-python3 _main_.py 
-```
-
-**Have fun!**
-
-
-**Random Forest Algorithm**
-
-```
-#define the algorithm class into the algo_one variable
-algo_one=RandomForestClassifier()
-algo_one.fit(x_train,y_train)
-#predicting the algorithm into the non trained dataset that is test set 
-prediction = algo_one.predict(x_test)
-metrics.accuracy_score(prediction,y_test)
-```
->>0.956140350877193
-
 # Observation
 <html>
 <body>
@@ -63,32 +30,38 @@ metrics.accuracy_score(prediction,y_test)
     <th>Model</th>
     <th>Algorithm</th>
     <th>Test Accuracy</th>
-  </tr>
+  </tr>    
   <tr>
     <td>Model 1</td>
     <td>Random Forest Algorithm</td>
-    <td>95%</td>
+    <td>93.15%</td>
   </tr>
   <tr>
     <td>Model 2</td>
     <td>SupportVector Machine Algorithm (SVM)</td>
-    <td>90%</td>
+    <td>91.57%</td>
   </tr>
   <tr>
     <td>Model 3</td>
     <td>Decision Tree Classifier Algorithm</td>
-    <td>92%</td>
+    <td>89.47%</td>
   </tr>
       <tr>
     <td>Model 4</td>
     <td>K-Nearest NeighborsClassifier Algorithm</td>
-    <td>94.7%</td>
+    <td>93.15%</td>
   </tr>
       <tr>
     <td>Model 5</td>
     <td>GaussianNB Algorithm</td>
-    <td>93.8%</td>
+    <td>88.42%</td>
   </tr>
+  <tr>
+        <td>Model 6</td>  
+        <td>Logistic regression</td>
+        <td>88.42</td>
+    
+    </tr>
 </table>
 </body>
 </html>
